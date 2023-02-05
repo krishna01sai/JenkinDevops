@@ -49,7 +49,7 @@ node {
             // Create new scratch org to test your code.
             // -------------------------------------------------------------------------
 
-            stage('Create Test Scratch Org') {
+   /*         stage('Create Test Scratch Org') {
                 rc = command "${toolbelt} force:org:create --targetdevhubusername HubOrg --setdefaultusername --definitionfile config/project-scratch-def.json --setalias ciorg --wait 10 --durationdays 1"
                 if (rc != 0) {
                     error 'Salesforce test scratch org creation failed.'
