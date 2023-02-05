@@ -10,5 +10,6 @@ public class API_authorizeDotNet {
         System.debug(apiTransKeySetting);
         APILOGIN = apiloginSetting.Value__c;
         APITRANSKEY= apiTransKeySetting.Value__c;
+        //sa
     }
 }
